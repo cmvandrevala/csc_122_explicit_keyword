@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.15)
+
+project("Explicit Keyword")
+
+set (CMAKE_CXX_STANDARD 14)
+
+add_executable(1_implicit_constructor_example_one 1_implicit_constructor_example_one.cpp)
+add_executable(2_implicit_constructor_example_two 2_implicit_constructor_example_two.cpp)
+add_executable(3_implicit_constructor_example_three 3_implicit_constructor_example_three.cpp)
+add_executable(4_explicit_constructor_example 4_explicit_constructor_example.cpp)
