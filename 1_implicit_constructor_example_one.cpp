@@ -31,8 +31,8 @@ int main()
 {
   cout << "This works as we expect" << endl;
   JellyFilling filling;
-  Doughnut *doughnut = new Doughnut(filling);
-  tell_me_your_flavor(*doughnut);
+  Doughnut doughnut = Doughnut(filling);
+  tell_me_your_flavor(doughnut);
   cout << endl;
 
   cout << "But wait... why the heck does this work???" << endl;
